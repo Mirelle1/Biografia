@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Subastas De Arte En Linea</title>
+	<style>
+    .mirelle {
+		  font-family: Arial, sans-serif;
+      font-size: 16px;
+		  color: #333333;
+		  background-color: #FFFFFF;
+		  border: 2px solid #CCCCCC;
+		  padding: 10px;
+		  margin: 20px;
+		  border-radius: 5px;
+      }
+      table {
+		  border-collapse: collapse;
+		  width: 100%;
+		  margin: 20px auto;
+		}
+		th, td {
+		  padding: 10px;
+		  text-align: left;
+		  border-bottom: 1px solid #CCCCCC;
+		}
+		th {
+		  background-color: #EEEEEE;
+		}
+      </style>
+</head>
+<body>
+<div class="mirelle">
+  <h1>¡Bienvenido a mi página aqui encontraras piezas de arte invaluables e increiblemente hermosas!</h1>
+  <p>¡Hola! Mi nombre es Mirelle y en esta pagina encontraran muchas piezas de arte en subasta, algunas de estas pizas pueden ser obras de Da vinci, Pablo Picasso, entre otros .</p>
+ <img src="https://www.wga.hu/images/p/pos/8pos1/lisa.jpg" alt="La Gioconda, de Leonardo da Vinci">
+		<p>Esta es "La Gioconda", también conocida como "La Mona Lisa", una famosa obra de Leonardo da Vinci.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4Rh2sbdGyEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>		<p>Este es un video sobre la obra de arte.</p>
+<table>
+			<thead>
+				<tr>
+					<th>Artista</th>
+					<th>Obra</th>
+					<th>Año</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Leonardo da Vinci</td>
+					<td>La Gioconda</td>
+					<td>1503-1519</td>
+				</tr>
+				<tr>
+					<td>Pablo Picasso</td>
+					<td>Les Demoiselles d'Avignon</td>
+					<td>1907</td>
+				</tr>
+				<tr>
+					<td>Vincent van Gogh</td>
+					<td>La noche estrellada</td>
+					<td>1889</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>Esta es una tabla dinámica que muestra algunas obras de arte famosas y sus respectivos artistas y años.</p>
+    
