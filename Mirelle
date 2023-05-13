@@ -1,30 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Subastas De Arte En Linea</title>
+<title>Página de ejemplo con Mirelle</title>
 	<style>
-    .mirelle {
-		  font-family: Arial, sans-serif;
-      font-size: 16px;
-		  color: #333333;
-		  background-color: #FFFFFF;
-		  border: 2px solid #CCCCCC;
-		  padding: 10px;
-		  margin: 20px;
-		  border-radius: 5px;
-      }
-      table {
-		  border-collapse: collapse;
-		  width: 100%;
-		  margin: 20px auto;
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #F7F7F7;
 		}
+		
+		.header {
+			background-color: #333333;
+			color: #FFFFFF;
+			padding: 20px;
+			text-align: center;
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+		
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #FFFFFF;
+			border: 2px solid #CCCCCC;
+			border-radius: 5px;
+		}
+		
+		.mirelle {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+		
+		.mirelle img {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 20px;
+		}
+		
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		
 		th, td {
-		  padding: 10px;
-		  text-align: left;
-		  border-bottom: 1px solid #CCCCCC;
+			text-align: left;
+			padding: 8px;
+			border-bottom: 1px solid #CCCCCC;
 		}
-		th {
-		  background-color: #EEEEEE;
+		
+		tr:hover {
+			background-color: #F7F7F7;
+		}
+		
+		.footer {
+			background-color: #333333;
+			color: #FFFFFF;
+			padding: 10px;
+			text-align: center;
+			font-size: 12px;
+			margin-top: 20px;
 		}
       </style>
 </head>
@@ -32,7 +68,7 @@
 <div class="mirelle">
   <h1>¡Bienvenido a mi página aqui encontraras piezas de arte invaluables e increiblemente hermosas!</h1>
   <p>¡Hola! Mi nombre es Mirelle y en esta pagina encontraran muchas piezas de arte en subasta, algunas de estas pizas pueden ser obras de Da vinci, Pablo Picasso, entre otros .</p>
- <img src="https://www.wga.hu/images/p/pos/8pos1/lisa.jpg" alt="La Gioconda, de Leonardo da Vinci">
+ <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAK4AdQMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAEBQECAwYAB//EADgQAAIBAwMCAwUGBQQDAAAAAAECAwAEERIhMQVBEyJRBjJhcYEUQpGhsdEjUnKS4RWTwfEzYvD/xAAZAQADAQEBAAAAAAAAAAAAAAACAwQBAAX/xAAjEQACAgICAgMAAwAAAAAAAAAAAQIRAyESMQRBEyJRMmGh/9oADAMBAAIRAxEAPwBPBbLPCJFVACTjyiri0330j5KK26N5rBcjgn9aJKLuc71NZzbvsC8KTjWP7RVHtpQc+Kp27oP2pgIe+ao0Zz3rrRnJ/ovW3cEnWuf6B+1eFscjKoR/Qv7UZ4ZBqwQg1to7lL9AHtVxghCcc6BU/Yho0gJj+hf2o1YtR+NX8AhfX61ujOUv0WHpiEDZP7BVW6XHn3U+qL+1NFUg8VfwxjJFY6N5S/RQOlxn7kf9gqR0mP8Akj/sX9qbKnpxUhMntWpo65fop/0aE/cj/wBtf2qD0OMnZI/9sU80Adqsq5PFbaOuX6cnfWVvbzCMwxcZ93Feo3rA03pDb+UV6sscuhp0BQ3S19cn9TRhVQMjcmg/Z4E9PBUeUMRj6mmuATgLg+lLl2Ka2Csp+leCk8naiGRq9o2oLOoFMWT5cV5gkKGSZgqqMkk8UVHFlqTXyf631VemQtiCA5lIPLdhWOSSthwhydAF17QkmT7DbjSv35e/yAoNfaO+U7rCR38n+a7ZPZHpqW+jw8k7klia5X2g9n0szqt8gemc0uHkRbplbwUtGtj7QW88ipcKIWbYOD5c+hPanjodPrXzZ1IJBFdf7H9Sa6hexnOXhGUJ5Ken0qiqJZxXaGqqeK08MgDatfDGdq1VNI3rroWZBNya8i4atmQgZqI181Dy/QqOZ6+um/Oe6ivVp7SDF8AT9yvU1DI9F/Z69WC3kRiM6icZ43zTVOoq8yPjCHINct09D4kjY8oOPrTNWCrsTsPzoJRFPs6BuoQjGPMM1qjRznVE6tg7/CuRklzwxzyaJ6d1OK2mDuCcIRgevxpdM2job6T7FYTT5y2MD50g9i5FL3l5O4DGTcn5Vn1fqxuunSxuAHB208Y5rH2T6UnULK4kEjCVZGUAMRjYYNKyr6Oyrx1s7p72CO3MzzqIwPezSS9nsLtGb7SrD0zQ970kp022s2dmUTZYk8j/ALq977L28j/aLl/4Ix5BISNvT0qJKPtlrv0cR1hY4roiLdf1qnRp2teqwyI2NWVPyI/6rf2h8BL7w7dQEUYGKW25Kzo3cMP1r1sW4IgyrbO8t78vgnOjG/rTC3uFll0k42zv865iISoWJyDj0zmibO4aO7Vn1YLb5Fc4aJfZ1iqWyAM1h4yJOAQQO5q5uE05Q8jsaDlY+MuSGHJFJjbexj6E/XZRcX5K5AC43FerLqa67ksDseK9VSQS6Fwmx4kfcyZP/wB9a3jJ0LnbagHbFw6jgtRUUuohCDxtxQy7AaN9eo4YZA71iVXBxVZHIbB4qFCn1+tBRz0B3rEAeY437029ir+S1uLmIjIbDYzQd9AEtlcqRk4zSqC5lsbpLiFwJFO/xHpQzhzi4lGGXHZ2/W+p3CzW0cD2zW+S3il8HnOMetF9T6kZrPVbkiMjbVtmgv8AWeldR6dHNPPJHcqN4tW2flSXqPV/FQRoTo/9uaijjbaTXRW5pLTEt+xe4Yn1oZSRIMetaTEu+rFZr71elDSointj63ubgJkSucjfeiYb6dW3ckeh3zQ1toMUZJxt2rZgA2FIwKJE7Ww5b+eQY06VHyrEXsyeQODk7nvQ5ckhfEOO1SykBcISfWs4o4s0jaifE5r1Yk6mbIIAO34CvUVjktA0iF7qTRxmt4raUNnnvnvUJkSFh/Mc/GtVmdnbCgDFKlkirs745Po1IRMeKcfQYrWGSHGVIOOQe1CujOxZmwijil9wGeR2U8D8cUqGe2a8I06lNE1q6FhxkYPfFczNg0Rck6F3wWGDRPROlt1S+SIAhOWI9KbyUVyZsIvpFfZ+0jurt4pl8pTZvQ9qOk6E0c+AMiu46d0O3sYNESKPjjvW6WSFizDPzFQ5PJbl9SmGKlTPnnVOnNBCrBcAc0pWM7/Ku/8AaaNVsZAEUkYxXFSaY4fVskZpuDK5LZmSBt0+4hMYVyykegzRwEEgLeMFAPLDFJIyI21Y8p5p90uCxuUYSqwI3BJ2NUSnxJHjdl1sAyiQuQpzuKrgRyAlyV7A96NmixCsUSBUXfZs5oSeGQhS4wBwO5pUcrbD4Iw2EkuG21bH12FRWbvh2J2JOfyFequK+qMZMbFmYDbzVcNJC4fy7Lwe9DwyaZ2TnUe9MEjjVdRDOR2qDP8AWRXijyjo0S4huYjqTQw532PxpfeD7LGWdR5/d+NGlooIy7Qg4GrJzgUhvLqS7kVn2Ue6o4UUODHyla6ByVFGaq9xcIhOWJx8hX0v2a6J9gRpTywHavnlpENXiNxx8a6vp/tdc28CwyoJ0AwCThq3ylKVKPRmKkjtCC/lqPCbSwwaU2PtR04RDx1ljc85TI/KipvaXpnhF459Z/lCnJNR8WOsQ+1YJgEe7EncVzMPSmugDKSsanOe31J2o/rntA1yzMoVV1YFIJ7qe62Llx6fdH0qvDiyKP4Lnkj0MrqCzgi0LcKSD9w8/lSqC6a1lzH5lzw1Yyqw5YVn6VbDFrbsRKdnS2/WI2jBmt1bfKkZ2PxpnC8N5BlbRgW21hs1yFoy6yjthTuKZ2k0ttKfsspDEcr3FInhS6GxVq0X6hAkU5QszAcHHwFerOaVroCQ853/AAFequDqKTENbAZg2olOQwpvDHdBdlY0NGYIpEdwxxvpHGaZp1GMKCykL32qTyHJ9IfhfEAvp7iO1ZHLqHGOORSNmINM+rX32uQLH7gGPmaWuhAyadgjxjsXmlyloIEumIKp7Y/GrwTBJCSchRig15FSpwT86JwsCxk9wDsoG9ZT3RjjOkkk+tDxHSpYjJPah52y2+7evwoY41Zrk6IP8Vxnj0oqJwDpQYOMfKhVOnjmiLbSELNydqZLSMj2GC2iMepk1MfXgUFcLGrYAH0q9xeFwEj2HBNC/OgxxfbCm16NEARlbGcHNHvJEFDQk5zxiglZfCANGxz25twk2rPHlHFFNezccq0XhGYRoIO594/Kpqq6AuIz33yKmtBd2SxOF+VYSzl/KD5PWrXkn8NcbEihh5yE9TQJe2b/AEWUJnUWFXmZGQBefiMUTHZIYtQjxp3Z3OFA/es57NioaNADznOABSvli2M+NpC19mwKgHfFEp06/nBeGyuXUcssTEUPIHgYiRGRh2YYP4VSpJ6TENM0dtAGNz6UODliTUGQHj8a8N+9ElQNliMmrNIQoQVnq82BUjc81zRqZoi7fGvEEe8MVK/CvMSTk4zQrsN9E/dFbQjPYUPnIHwrWGTS2/FE+gV2NLZRoPlHPpmoq9k4aI533qaXYdC++B1IB6Vih0yLqrS+dWZQNWoc0KxO3G1ElaoFsb/atS6se7jQrbgnHJFXhmPixiRjp5bfOd+/1/4pR4rgcfgaItIp72XRbL7o8xJwoHxqaWBJNj1kbPpMPUIUgWFdOBtihb2xtL1MSwpIpPcUktOnzwW/2h5/EVTjSvGB+tH214WXCnfivIlFxdxZZHa2hL1f2R1EP0sYxuUY5H0Nc1cW09m5juIWRh68fjX0KW5nkDJayKtxGMhJNg4pR1C6t+qsBc2wiukOHRsgH8O9W+P5WVKp7X+iMnjwl/HTONB3yKsG3ropYbNEEQtIQ3Y45+vNQrJGnhnyxng81U/LXpCl4rT2xLG+R2qDzTCdFkB2XPYqMZpdq0Ng9jTsc1IXOLjovpwteXmqs+dwKvECSNqaL9jOxbERHxr1UgyqnG1eoAraAbv/AM7f1VAAI/5q1wF8Ztu9QSCAMb0QKRUqpGOaadDCRo6OTlmBIHoBS0KPTFWSRo2ym3xpWWPOPEbjfGVndW90q2bSTYRSPKMYwOwFc7NfRwzsyk6WO4XtQt/fvNHEmryqBkUL4jMfKQBUeLxq3Ionl9IdHqsU1uI53/iof4U68j51hcTJeL/EYJdKMqc7PS1n0qRsc/AUOxDc6TTY+Ol0D8z9hBuSWBLFv6uagXJaMKTkA0KVHbaqg4NO+KLFvIwl5FHFCv5mzUmq8GmRgo9C5Sb7Lou1EQjDL86zQeQGrg/rRN3o5Kth3vElSMcV6otTHhvFGd8CpoUZJ7F8rBpGJ5zUZFUkliaQsmsA+oFQCh3y34UdaA5xNASxxUnZcVVCh2Vm/tH71do0KZ1NzQuLCU0ZF8nBG5r2rCnmpMaZXzNv8KnRGVY5bGPT/NdxNUkY6tXNU1b7UQtvE+6s2M43H+aubHG4fvjiiBuwdW2qurzUR4ITPm/KvPbqYwyMck+lYbZjnJqCd62+z6BqL8j0qpg8xGv8q0y0XibyEeteDYYCqpE2ca/yrX7Nv7+/rj/NZxZvNGiqfDBzsSa9XnlWONI1LZBOSV5/OvUVC29n/9k=" alt="La Gioconda, de Leonardo da Vinci">
 		<p>Esta es "La Gioconda", también conocida como "La Mona Lisa", una famosa obra de Leonardo da Vinci.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4Rh2sbdGyEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>		<p>Este es un video sobre la obra de arte.</p>
 <table>
@@ -62,4 +98,3 @@
 			</tbody>
 		</table>
 		<p>Esta es una tabla dinámica que muestra algunas obras de arte famosas y sus respectivos artistas y años.</p>
-    
